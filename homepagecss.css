@@ -1,0 +1,107 @@
+div.card {
+  width: 550px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: block;
+    padding: 4px;
+    margin: 20px 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+      padding-right: 15px;
+    padding-left: 15px; 
+}
+
+div.header {
+  /*background-color: #4CAF50;*/
+  color: white;
+ }
+
+div.container {
+  padding: 5px;
+/*position: relative;*/
+    min-height: 1px;
+ 
+  
+}
+div.title {
+  padding: 1px;
+position: relative;
+    min-height: 1px;
+    border-bottom-color: gray;
+}
+ img{
+ width:180px; 
+ height:180px;
+ float:right; 
+ }
+ p{
+ text-align: left;
+ width: 300px;
+ margin-bottom: 0;
+ margin-top: 0;
+ }
+ p.description{
+  max-width: 300px;
+ max-height: 200px;
+ font-size: 11px;
+ font-weight: 1px;
+ overflow: hidden;
+ text-overflow: ellipsis; 
+
+ }
+ .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: bottom;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.spancenter{
+  text-align: center;
+  font-weight: 35px;
+}
+/* Search Bar */
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
